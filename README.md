@@ -1,2 +1,2 @@
-# food-app-team3
+# foodApp-3
 Everyone can be a chaf
