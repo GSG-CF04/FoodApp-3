@@ -1,2 +1,2 @@
 # foodApp-3
-Everyone can be a chaf
+Everyone can be a chef
