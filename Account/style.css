@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding:0px ;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 90%;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+button{
+    width: 50%;
+    border: none;
+    background-color: #ffffff;
+    color: #c4c6ca;
+    padding: .5rem;
+    position: relative;
+    top: 2rem;
+}
+button:hover{
+    background-color:#ff8527 ;
+    border-radius: 1.25rem;
+
+}
+.hr1{
+    position: relative;
+    top: 2.5rem;
+}
+hr{
+    position: relative;
+    bottom: 1rem;
+}
+.hr2{
+    position: relative;
+    bottom: 3rem;
+
+}
+i{
+    position: relative;
+    top: 1.3rem;
+    left:1.2rem;
+    font-size: 20px;
+}
+.fa-ellipsis-v-alt{
+    position: relative;
+    top: 1.3rem;
+    left:2rem;
+    font-size: 20px;
+
+}
+.hr3{
+    position: relative;
+    bottom: 5rem;
+}
+.aconnt-fram{
+    position: relative;
+    top: 2rem;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: rem;
+}
+img{
+    width: 20%;
+    height: 0%;
+    position: relative;
+    top: 1.4rem;
+}
+.div2{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 1.5rem;
+}
+h2{
+    position: relative;
+    bottom: 1rem;
+    font-size:1rem ;
+}
+.div3{
+    display: flex;
+    flex-direction:row ;
+}
+h5{
+    color: #9da0a7;
+}
+.div4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 2rem;
+}
+.div5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 4rem;
+}
