@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Sen&display=swap');
+*{
+ margin: 0%;
+padding: 0%;
+ box-sizing:border-box;
+
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+.page1-background{
+    width:50%;
+    max-width: 600px;
+    position: absolute;
+    top:0px;
+    z-index: 0;
+    
+}
+
+.page1-background image{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -9px;
+    bottom: 441.4px;
+    width: 50%;
+   
+}
+.name-app{
+    min-height:35vh;
+    width:102%;
+    position: absolute;
+    top:200px;
+    z-index: 1;
+    background: #FFFFFF;
+    border-radius: 24px 24px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  
+
+}
+.name-app h4{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 20px;
+   
+    
+   
+    
+}
+.name-app p{
+    font-family: 'Sen', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10px;
+    margin: 5px 0px;
+    position: static;
+    letter-spacing: 2.3%;
+    
+}
+.phone-num{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10vh;
+    margin-top: 78%;
+    z-index: 3;
+    position: absolute;
+    align-content: center;
+   
+  
+
+}
+.phone-input{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    border: none;
+    box-sizing: border-box;
+    width: 90%;
+    border: 1px solid #E1E2E3;
+    margin: 10px 0px;
+    border-radius: 8px;
+    padding: 12px;
+
+}
+#tel-input{
+    border-style: hidden;
+    width: 100%;
+    
+}
+.phone-input ::placeholder{
+    font-family: 'Sen', sans-serif;
+    color:rgba(182, 181, 181, 0.788);
+    font-weight: 400;
+    font-size: 12px;
+    line-height:20.11px;
+    margin: 0;
+    text-align: center;
+}
+#phone-icon{
+   width: 21%;
+   height: 3vh;
+   position: absolute;
+  
+   
+}
+#phone-submit{
+    width: 90%;
+    height: 10vh;
+    align-self: center;
+    box-sizing: border-box;
+    padding: 14px;
+    font-family: Cera Pro;
+    font-size: 10px;
+    color: white;
+    background-color: #FF8527;
+    border-radius: 6px;
+    border-style: hidden;  
+    font-family: 'Sen', sans-serif; 
+}
+
