@@ -1,0 +1,98 @@
+@media (max-width: 360px) {
+  
+    .avatar{
+      border-radius: 50%;
+      position: absolute;
+      top: 212px;
+      left: 132px;
+      z-index: 2;
+    }
+    .profile-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        position: absolute;
+        top: 300px;
+        right: -6px;
+        z-index: 1;
+        border-radius: 16px;
+        padding: 20px 0px 16px;
+        width: 343px;
+        height: 172px;
+    }
+    h2 {
+      font-family: cera Pro;
+       font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      margin-top: 30px;
+      text-align: center;
+      line-height: 25px;
+    }
+     p {
+      font-family: "Cera Pro";
+      font-style: normal;
+      font-size: 14px;
+      font-weight: normal;
+      margin-top: -2px;
+    }
+     .img1{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 4px;
+      position: absolute;
+      width: 38px;
+      height: 38px;
+      left: 16px;
+      top: 60.09px;
+      background: #FFFFFF;
+      border-radius: 100px;
+    }
+     .img2{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 4px;
+      position: absolute;
+      width:38px;
+      height: 38px;
+      left:325px;
+      top: 60.09px;
+      background: #FFFFFF;
+      border-radius: 100px;
+    }
+  }
+  
+  
+  /* .contenar {
+      position: relative;
+    }
+    .contenar .cimage img {
+      border-radius: 50%;
+      position: absolute;
+      top: 212px;
+      left: 132px;
+      z-index: 2;
+    }
+    .contenar .details {
+      background-color: white;
+      text-align-last: center;
+      position: absolute;
+      top: 300px;
+      right: center;
+      left: 50px;
+      z-index: 1;
+      border-radius: 20px;
+    }
+    .contenar .details h2 {
+      font-family: "Cera Pro", Times, serif;
+      font-size: 30px;
+      font-style: normal;
+    }
+    .contenar .details p {
+      font-family: "Cera Pro", Times, serif;
+      font-size: 20px;
+      font-style: oblique;
+    } */
