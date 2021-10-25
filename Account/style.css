@@ -29,7 +29,7 @@ button:hover{
     border-radius: 1.25rem;
 
 }
-.hr1{
+.first-hr{
     position: relative;
     top: 2.5rem;
 }
@@ -37,7 +37,7 @@ hr{
     position: relative;
     bottom: 1rem;
 }
-.hr2{
+.second-hr{
     position: relative;
     bottom: 3rem;
 
@@ -55,7 +55,7 @@ i{
     font-size: 20px;
 
 }
-.hr3{
+.thered-hr{
     position: relative;
     bottom: 5rem;
 }
@@ -63,7 +63,7 @@ i{
     position: relative;
     top: 2rem;
 }
-.div1{
+.first-article{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -76,7 +76,7 @@ img{
     position: relative;
     top: 1.4rem;
 }
-.div2{
+.picture-Description {
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -88,21 +88,21 @@ h2{
     bottom: 1rem;
     font-size:1rem ;
 }
-.div3{
+.Description-head{
     display: flex;
     flex-direction:row ;
 }
 h5{
     color: #9da0a7;
 }
-.div4{
+.second-article{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
     bottom: 2rem;
 }
-.div5{
+.therde-article{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
