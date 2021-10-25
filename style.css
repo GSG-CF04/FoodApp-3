@@ -7,6 +7,7 @@
      position: relative;
      right: 2.2rem;
     padding-top:  30px; ;
+    
 } 
 .h2-frame{
     display: flex;
@@ -62,4 +63,44 @@ li{
 a{
     text-decoration: none;
     color: black;
+}
+@media screen and (min-width:1024px) {
+    h2{
+        right: 10rem;
+        font-size: 3rem;
+    }
+    ul{
+        left: -24rem
+    }
+    .Filter{
+        right: 4rem
+    }
+    .fa-sliders-v{
+        left: 5rem;
+    }
+    .bet{
+        left: -14rem;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    h2{
+        right: 10rem;
+        font-size: 3rem;
+    }
+    ul{
+        left: -9rem
+    }
+    .Filter{
+        right: 3rem
+    }
+    .fa-sliders-v{
+        left: 2rem;
+    }
+    .bet{
+        left: -7rem;
+    }
+    .fa-chevron-right{
+        left: -7rem;
+    position: relative;
+    }
 }
