@@ -19,13 +19,14 @@ html, body {
         padding: 0px;
     }
     .sub-frame{
-        display:flex;
-        flex-direction: row;
-        position:static;
-        width: 375px;
-        height: 313px;
-    justify-content: space-evenly;
-        padding: 8px;
+        display: flex;
+         flex-direction: row;
+         position: static;
+         width: 375px;
+         height: 282px;
+          /* justify-content: space-evenly; */
+          padding: 8px;
+     margin: 0px -7px;
     }
     .recipe-frame{
         display: flex;
@@ -82,7 +83,7 @@ html, body {
         flex-direction: row;
         align-items: flex-start;
         position: relative;
-        bottom: 10px;
+        bottom: -12px;
     }
     #recipe-img{
         position: static;
@@ -111,7 +112,7 @@ html, body {
         position: relative;
         top: 5px;
         border: .1px solid #E1E2E3;
-        padding: 20px 10px;
+        padding: 13px 10px;
         overflow: auto;
         overflow-y: hidden;
 
@@ -129,7 +130,7 @@ html, body {
     }
     h2{
         position: relative;
-        right: -20.8rem;
+        right: -6.8rem;
        padding-top:  30px;
     }
     }
@@ -260,11 +261,7 @@ html, body {
             left:10px;
         }
     }
- h2{
-     position: relative;
-     right: -6.8rem;
-    padding-top:  30px; ;
-} 
+
 .h2-frame{
     display: flex;
     align-items: center;
