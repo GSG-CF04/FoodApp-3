@@ -1,125 +1,305 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
- h2{
-     position: relative;
-     right: 2.2rem;
-    padding-top:  30px; ;
-    
-} 
-.h2-frame{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 6.5rem;
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 36rem;
-    align-content: space-between;
-    position: relative;
-    top: 5px;
-    border: .1px solid #E1E2E3;
-    padding: 5px;
-}
-.bet{
-    position: relative;
-    left: 1rem;
-    top: -.2rem;
-    font-size: 2rem;
-}
-.Filter{
-    padding-left:15px;
-    position: relative;
-    top:8px
-}
-ul{
-    display: flex;
-    flex-direction: row;
-    
-    justify-content: space-between;
-    position: relative;
-    left: 40px;
-    top:8px;
-}
-li{
-    list-style-type: none;
-    padding-right: 24px;
-}
-.fa-chevron-right{
-    position: relative;
-    top: 1rem;
-    left: 1.4rem;
-}
-.fa-sliders-v{
-    position: relative;
-    left: .5rem;
-    top: .5rem;
-}
-.li{
-    color: #ff8527;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-@media screen and (min-width:1024px) {
-    h2{
-        right: 5.5rem;
-        font-size: 3rem;
+@media (max-width: 767px){
+    .main-frame{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position:absolute;
+        width: 100wh;
+        height:100vh;
+        margin: 0px;
+        padding: 0px;
     }
-    ul{
-        left:0rem;
+    .sub-frame{
+        display:flex;
+        flex-direction: row;
+        position:static;
+        width: 375px;
+        height: 313px;
+        justify-content: space-around;
+        padding: 8px;
     }
-    .navbar{
-        width: 62rem;
+    .recipe-frame{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding:8px;
         position: relative;
-        left: 3rem;
-}
     }
-    .Filter{
-        right: 0rem
+    .user-info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: static;
+        height: 40px;
+        left: 8px;
+        top: 249px;
     }
-    .fa-sliders-v{
-        left: 8rem;
+    .name-group{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        left:10px;
     }
-    .bet{
-        left: 0rem;
+    #user-img{
+        position: static;
+        width: 32px;
+        height: 32px;
+      }
+    .recipe-title {
+        position: static;
+        width:163.5px;
+        height: 54px;
+        font-family: recoleta;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.023em;
+        color: black;
+        margin-top:-2px;
     }
-    .fa-chevron-right{
-        left: 7rem;
-    position: relative;
+    .user-name{
+     position: relative;
+        font-family: cera pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        top:10px;
+        color: black;
     }
-}
-@media (min-width:767px) and (max-width:1023px) {
-    h2{
-        /* right: 10rem; */
-        font-size: 3rem;
-        position: relative; 
-        right: 5rem;
+    .reviews{
+       display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        position: relative;
+        bottom: 10px;
     }
-    ul{
-        left: 0rem
+    #recipe-img{
+        position: static;
+        width: 163.5px;
+        height: 171px;
+        left: 8px;
+        top: 8px;
+        position: relative;
     }
-    .navbar{
-        width: 47rem;
+    .recipe-frame .hearticon{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+        right: 7px;
+        top: 140px;
     }
-    .Filter{
-        right: 1rem
     }
-    .fa-sliders-v{
-        left: 2rem;
+    /*tablet*/
+    @media (max-width: 1023px) and (min-width: 768px){
+        .main-frame{
+            display:flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position:absolute;
+            width: 100wh;
+            height:100vh;
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            display: flex;
+        }
+        .sub-frame{
+            display:flex;
+            flex-direction: row;
+            position:static;
+            width: 375px;
+            height: 313px;
+            justify-content: space-around;
+            padding: 8px;
+        }
+        .recipe-frame{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding:8px;
+            position: relative;
+        }
+        .user-info{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            position: static;
+            height: 40px;
+            left: 8px;
+            top: 249px;
+        }
+        .name-group{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            left:10px;
+        }
+        #user-img{
+            position: static;
+            width: 32px;
+            height: 32px;
+          }
+        .recipe-title {
+            position: static;
+            width:163.5px;
+            height: 54px;
+            font-family: recoleta;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 27px;
+            letter-spacing: 0.023em;
+            color: black;
+            margin-top:-2px;
+        }
+        .user-name{
+         position: relative;
+            font-family: cera pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            top:10px;
+            color: black;
+        }
+        .reviews{
+           display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            position: relative;
+            bottom: 10px;
+        }
+        #recipe-img{
+            position: static;
+            width: 163.5px;
+            height: 171px;
+            left: 8px;
+            top: 8px;
+            position: relative;
+        }
+        .recipe-frame .hearticon{
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 0px 10px;
+            right: 7px;
+            top: 140px;
+        }
     }
-    .bet{
-        left: -1rem;
+
+
+    /*Desktop*/
+    @media (min-width: 1024px){
+        .main-frame{
+            display:flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position:absolute;
+            width: 100wh;
+            height:100vh;
+            margin: 0px;
+            padding: 0px;
+        }
+        .MainContainer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: flex-start;
+                }
+        .sub-frame{
+            display:flex;
+            flex-direction: row;
+            position:static;
+            width: 375px;
+            height: 313px;
+            justify-content: space-around;
+            padding: 8px;
+        }
+        .recipe-frame{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding:8px;
+            position: relative;
+        }
+        .user-info{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            position: static;
+            height: 40px;
+            left: 8px;
+            top: 249px;
+        }
+        .name-group{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            left:10px;
+        }
+        #user-img{
+            position: static;
+            width: 32px;
+            height: 32px;
+          }
+        .recipe-title {
+            position: static;
+            width:163.5px;
+            height: 54px;
+            font-family: recoleta;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 27px;
+            letter-spacing: 0.023em;
+            color: black;
+            margin-top:-2px;
+        }
+        .user-name{
+         position: relative;
+            font-family: cera pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            top:10px;
+            color: black;
+        }
+        .reviews{
+           display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            position: relative;
+            bottom: 10px;
+        }
+        #recipe-img{
+            position: static;
+            width: 163.5px;
+            height: 171px;
+            left: 8px;
+            top: 8px;
+            position: relative;
+        }
+        .recipe-frame .hearticon{
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 0px 10px;
+            right: 7px;
+            top: 140px;
+        }
     }
-    .fa-chevron-right{
-        left: 7rem;
-    position: relative;
-    }
-}
