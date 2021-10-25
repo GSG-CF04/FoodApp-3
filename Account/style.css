@@ -1,0 +1,183 @@
+body{
+    margin: 0px;
+    padding:0px ;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 90%;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+button{
+    width: 50%;
+    border: none;
+    background-color: #ffffff;
+    color: #c4c6ca;
+    padding: .5rem;
+    position: relative;
+    top: 2rem;
+}
+button:hover{
+    background-color:#ff8527 ;
+    border-radius: 1.25rem;
+
+}
+.above-lemang{
+    position: relative;
+    top: 2.5rem;
+}
+hr{
+    position: relative;
+    bottom: 1rem;
+}
+.mai-bettwen-Bebek-and-Goreng{
+    position: relative;
+    bottom: 3rem;
+
+}
+i{
+    position: relative;
+    top: 1.3rem;
+    left:1.2rem;
+    font-size: 20px;
+}
+.fa-ellipsis-v-alt{
+    position: relative;
+    top: 1.3rem;
+    left:2rem;
+    font-size: 20px;
+
+}
+.under-Bebek-Goreng{
+    position: relative;
+    bottom: 5rem;
+}
+.aconnt-fram{
+    position: relative;
+    top: 2rem;
+}
+.main-article-Lemang-Ikan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: rem;
+}
+img{
+    height: 4rem;
+    position: relative;
+    top: 1rem;
+    max-width: 5rem;
+    left: 0rem;
+}
+.icon-goreng{
+    position: relative;
+    left: 7rem;
+}
+.picture-Description {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 1.5rem;
+}
+h2{
+    position: relative;
+    bottom: 1rem;
+    font-size:1rem ;
+}
+.Description-head{
+    display: flex;
+    flex-direction:row ;
+}
+h5{
+    color: #9da0a7;
+}
+article{
+    margin-bottom: 1rem;
+}
+.main-article-Mie-Goreng{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 2rem;
+}
+.main-article-Bebek-Goreng{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 4rem;
+}
+@media  screen and (min-width:1024px)  {
+    .img{
+        height: 5rem;
+        position: relative;
+         top: 0.9rem;
+    /* width: 8rem; */
+         left: 3rem;
+    }
+    article{
+        margin-bottom: 1rem;
+    }
+
+
+}
+/* @media  screen and (max-width:767) {
+    .img{
+        height: 0%;
+        position: relative;
+        top: .5rem;
+        width: 5rem;
+        left: 2rem;
+        }
+    article{
+        margin-bottom: 3rem;
+    }
+
+
+} */
+
+
+/* @media  (min-width:600px) and (max-width:800px) {
+    .img{
+        position: relative;
+        left: 2.3rem;
+        top: .9rem;
+        width:6rem ;
+    }
+    article{
+        margin-bottom: 2rem;
+    
+    }
+    
+} */
+@media  (min-width:768px) and (max-width:1023px) {
+  main{
+      width: 80%;
+      height: 100vh;
+  }
+  .img{
+     
+    
+    height: 5rem;
+    position: relative;
+    top: .5rem;
+    /* width: 6rem; */
+    left: 2rem;
+}
+article{
+    margin-bottom: 1rem;
+
+}
+ 
+      
+   }
