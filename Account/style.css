@@ -1,8 +1,15 @@
-@media (max-width: 360px) {
-  body {
-    background-image: url('img/background.png');
-    background-repeat: no-repeat;
+* {
+  box-sizing: border-box; 
   }
+
+@media (max-width: 360px) {
+  .background {
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+   
   .avatar {
     border-radius: 50%;
     position: absolute;
@@ -17,11 +24,11 @@
     background-color: white;
     position: absolute;
     top: 300px;
-    right: -45px;
+    right: 1%;
     z-index: 1;
     border-radius: 16px;
     padding: 20px 0px 16px;
-    width: 343px;
+    width: 300px;
     height: 172px;
   }
   h2 {
@@ -46,10 +53,10 @@
     align-items: flex-start;
     padding: 4px;
     position: absolute;
-    width: 38px;
-    height: 38px;
+    width: 10%;
+    height: 6%;
     left: 4%;
-    top: 60.09px;
+    top: 12%;
     background: #ffffff;
     border-radius: 100px;
   }
@@ -59,10 +66,10 @@
     align-items: flex-start;
     padding: 4px;
     position: absolute;
-    width: 38px;
-    height: 38px;
-    left: 96%;
-    top: 60.09px;
+    width: 10%;
+    height: 6%;
+    left: 93%;
+    top: 12%;
     background: #ffffff;
     border-radius: 100px;
   }
@@ -72,12 +79,29 @@
 
 /*desktop*/
 @media (max-width: 1024px) and (min-width: 769px) {
-  body {
-    background-image: url('img/background1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+  section {
+    width: 100%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #373B44;
+    height: 59vh;
 
-  }
+    /*added here*/
+     /*added here*/ }
+
+    section:nth-of-type(2n) {
+      background-color: #FE4B74;
+    }
+    .cover .background{
+      background-image: url(img/backgroundLast.png);
+      background-repeat: round;
+      max-width: none;
+      height: 100%;
+    }
+    .backgroundNew{
+      display: none;
+    }
   .avatar {
     border-radius: 50%;
     position: absolute;
@@ -148,6 +172,9 @@
   body {
     background-image: url('img/background1.png');
     background-repeat: no-repeat;
+  }
+  .backgroundNew{
+    display: none;
   }
   .avatar {
     border-radius: 50%;
