@@ -73,9 +73,13 @@ i{
 img{
     height: 4rem;
     position: relative;
-    top: .5rem;
+    top: 1rem;
     max-width: 5rem;
-    left: 1rem;
+    left: 0rem;
+}
+.icon-goreng{
+    position: relative;
+    left: 7rem;
 }
 .picture-Description {
     width: 70%;
