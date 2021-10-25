@@ -13,11 +13,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: 6.5rem;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    width: 36rem;
     align-content: space-between;
     position: relative;
     top: 5px;
@@ -38,6 +41,7 @@
 ul{
     display: flex;
     flex-direction: row;
+    
     justify-content: space-between;
     position: relative;
     left: 40px;
@@ -66,41 +70,56 @@ a{
 }
 @media screen and (min-width:1024px) {
     h2{
-        right: 10rem;
+        right: 5.5rem;
         font-size: 3rem;
     }
     ul{
-        left: -24rem
+        left:0rem;
+    }
+    .navbar{
+        width: 62rem;
+        position: relative;
+        left: 3rem;
+}
     }
     .Filter{
-        right: 4rem
+        right: 0rem
     }
     .fa-sliders-v{
-        left: 5rem;
+        left: 8rem;
     }
     .bet{
-        left: -14rem;
+        left: 0rem;
+    }
+    .fa-chevron-right{
+        left: 7rem;
+    position: relative;
     }
 }
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media (min-width:767px) and (max-width:1023px) {
     h2{
-        right: 10rem;
+        /* right: 10rem; */
         font-size: 3rem;
+        position: relative; 
+        right: 5rem;
     }
     ul{
-        left: -9rem
+        left: 0rem
+    }
+    .navbar{
+        width: 47rem;
     }
     .Filter{
-        right: 3rem
+        right: 1rem
     }
     .fa-sliders-v{
         left: 2rem;
     }
     .bet{
-        left: -7rem;
+        left: -1rem;
     }
     .fa-chevron-right{
-        left: -7rem;
+        left: 7rem;
     position: relative;
     }
 }
