@@ -74,7 +74,7 @@ img{
     height: 0%;
     position: relative;
     top: .5rem;
-    width: 5rem;
+    max-width: 5rem;
     left: 1rem;
 }
 .picture-Description {
@@ -97,7 +97,7 @@ h5{
     color: #9da0a7;
 }
 article{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 .main-article-Mie-Goreng{
     display: flex;
@@ -117,11 +117,11 @@ article{
     .img{
         position: relative;
     top: 0.9rem;
-    width: 8rem;
+    /* width: 8rem; */
     left: 3rem;
     }
     article{
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
 
 
@@ -166,11 +166,11 @@ article{
     height: 0%;
     position: relative;
     top: .5rem;
-    width: 6rem;
+    /* width: 6rem; */
     left: 2rem;
 }
 article{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 
 }
  
