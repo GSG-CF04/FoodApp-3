@@ -29,7 +29,7 @@ button:hover{
     border-radius: 1.25rem;
 
 }
-.first-hr{
+.above-lemang{
     position: relative;
     top: 2.5rem;
 }
@@ -37,7 +37,7 @@ hr{
     position: relative;
     bottom: 1rem;
 }
-.second-hr{
+.mai-bettwen-Bebek-and-Goreng{
     position: relative;
     bottom: 3rem;
 
@@ -55,7 +55,7 @@ i{
     font-size: 20px;
 
 }
-.thered-hr{
+.under-Bebek-Goreng{
     position: relative;
     bottom: 5rem;
 }
@@ -63,7 +63,7 @@ i{
     position: relative;
     top: 2rem;
 }
-.first-article{
+.main-article-Lemang-Ikan{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -71,10 +71,11 @@ i{
     bottom: rem;
 }
 img{
-    width: 20%;
     height: 0%;
     position: relative;
-    top: 1.4rem;
+    top: .5rem;
+    width: 5rem;
+    left: 1rem;
 }
 .picture-Description {
     width: 70%;
@@ -95,21 +96,24 @@ h2{
 h5{
     color: #9da0a7;
 }
-.second-article{
+article{
+    margin-bottom: 3rem;
+}
+.main-article-Mie-Goreng{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
     bottom: 2rem;
 }
-.therde-article{
+.main-article-Bebek-Goreng{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
     bottom: 4rem;
 }
-@media  (min-width:1000px) and (max-width:1640px) {
+@media  screen and (min-width:1024px)  {
     .img{
         position: relative;
     top: 0.9rem;
@@ -122,20 +126,23 @@ h5{
 
 
 }
-@media  (min-width:500px) and (max-width:599) {
+/* @media  screen and (max-width:767) {
     .img{
-           width: 6rem;
-            top: 0.5rem;
+        height: 0%;
+        position: relative;
+        top: .5rem;
+        width: 5rem;
+        left: 2rem;
         }
     article{
         margin-bottom: 3rem;
     }
 
 
-}
+} */
 
 
-@media  (min-width:600px) and (max-width:800px) {
+/* @media  (min-width:600px) and (max-width:800px) {
     .img{
         position: relative;
         left: 2.3rem;
@@ -147,8 +154,8 @@ h5{
     
     }
     
-}
-@media  (min-width:800px) and (max-width:1024px) {
+} */
+@media  (min-width:768px) and (max-width:1023px) {
   main{
       width: 80%;
       height: 100vh;
@@ -159,7 +166,7 @@ h5{
     height: 0%;
     position: relative;
     top: .5rem;
-    width: 8rem;
+    width: 6rem;
     left: 2rem;
 }
 article{
