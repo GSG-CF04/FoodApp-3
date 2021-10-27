@@ -1,10 +1,64 @@
 body{
     margin: 0px;
     padding:0px ;
+    flex-direction: column;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
 }
+header{
+    height: 20rem;
+    /* background-image: url(img/Rectangle13.png); */
+}
+.backgroundNew{
+    height:31vh;
+    width: 89vw;
+    position: relative;
+    left:1.5rem;
+  
+}
+.icons{
+    position: relative; 
+    right: 10rem;
+    display: flex;
+    flex-direction: row;
+}
+.avater-sec{
+    position: absolute;
+    top: 11rem;
+    left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: space-between; */
+    align-items: center;
+    background-color: white;
+    width: 78%;
+    border-radius: 13%;
+}
+.avatar{
+    position: relative;
+    bottom: 3rem;
+}
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.followers{
+    position: relative;
+    bottom: 3rem;
+    left: 1.4rem;
+}
+
+
+.Rajin{
+    position: relative;
+    bottom: 2rem;
+}
+
+
+/*--------------------------------------------*/
 main{
     width: 90%;
 }
@@ -66,7 +120,7 @@ i{
 .main-article-Lemang-Ikan{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
     bottom: rem;
 }
@@ -74,7 +128,7 @@ img{
     height: 4rem;
     position: relative;
     top: 1rem;
-    max-width: 5rem;
+    /* max-width: 5rem; */
     left: 0rem;
 }
 .icon-goreng{
@@ -86,12 +140,14 @@ img{
     display: flex;
     flex-direction: column;
     position: relative;
-    right: 1.5rem;
+    right: .5rem;
 }
 h2{
+    
     position: relative;
     bottom: 1rem;
-    font-size:1rem ;
+    font-size: 1rem;
+    text-align: center
 }
 .Description-head{
     display: flex;
@@ -106,14 +162,14 @@ article{
 .main-article-Mie-Goreng{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
     bottom: 2rem;
 }
 .main-article-Bebek-Goreng{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
     bottom: 4rem;
 }
@@ -128,43 +184,48 @@ article{
     article{
         margin-bottom: 1rem;
     }
-
-
-}
-/* @media  screen and (max-width:767) {
-    .img{
-        height: 0%;
+    header{
         position: relative;
-        top: .5rem;
-        width: 5rem;
+        /* left: 1rem; */
+    }
+    main{
+        position: relative;
         left: 2rem;
-        }
-    article{
-        margin-bottom: 3rem;
     }
-
-
-} */
-
-
-/* @media  (min-width:600px) and (max-width:800px) {
-    .img{
+    .avater-sec{
+        left: 6rem;
+        position: absolute;
+    }
+    .Description-head{
         position: relative;
-        left: 2.3rem;
-        top: .9rem;
-        width:6rem ;
+        left: 9rem;
     }
-    article{
-        margin-bottom: 2rem;
-    
+    .backgroundNew {
+        height: 24vh;
+        width: 48vw;
+        position: relative;
+        left: 13.5rem;
     }
-    
-} */
+}
+
 @media  (min-width:768px) and (max-width:1023px) {
   main{
       width: 80%;
       height: 100vh;
+      position: relative;
+      left: 2rem;
   }
+ header{
+     display: flex;
+     justify-content: center;
+ }
+ .avater-sec{
+    left: 6rem;
+    position: absolute;
+ }
+ .backgroundNew{
+     left: 2.5rem;
+ }
   .img{
      
     
@@ -178,6 +239,27 @@ article{
     margin-bottom: 1rem;
 
 }
- 
+ .aconnt-fram{
+     position: relative;
+     left: 2rem;
+ }
+ .above-lemang{
+     left: 2rem;
+ }
       
    }
+   .fa-chevron-circle-left{
+    position: relative;
+    left: -7rem;
+    top: 3rem;
+    font-size: 2rem;
+    color: white;
+}
+.fa-heart-circle{
+position: relative;
+    left: 7rem;
+    top: 3rem;
+    font-size: 2rem;
+    color: white;
+
+}
