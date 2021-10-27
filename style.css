@@ -1,4 +1,13 @@
-@media (max-width: 767px){
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@media (max-width:360px){
     .main-frame{
         display:flex;
         flex-direction: column;
@@ -10,13 +19,14 @@
         padding: 0px;
     }
     .sub-frame{
-        display:flex;
-        flex-direction: row;
-        position:static;
-        width: 375px;
-        height: 313px;
-        justify-content: space-around;
-        padding: 8px;
+        display: flex;
+         flex-direction: row;
+         position: static;
+         width: 375px;
+         height: 282px;
+          /* justify-content: space-evenly; */
+          padding: 8px;
+     margin: 0px -7px;
     }
     .recipe-frame{
         display: flex;
@@ -73,7 +83,7 @@
         flex-direction: row;
         align-items: flex-start;
         position: relative;
-        bottom: 10px;
+        bottom: -12px;
     }
     #recipe-img{
         position: static;
@@ -94,28 +104,137 @@
         right: 7px;
         top: 140px;
     }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-content: space-between;
+        position: relative;
+        top: 5px;
+        border: .1px solid #E1E2E3;
+        padding: 13px 10px;
+        overflow: auto;
+        overflow-y: hidden;
+
+            }
+    .navbar ul li{
+     display: inline-block;
+     color: black;
+     text-align: center;
+     text-decoration: none;
+
     }
+    .navbar ul .lli{
+        color: #ff8527;
+
+    }
+    h2{
+        position: relative;
+        right: -6.8rem;
+       padding-top:  30px;
+    }
+    }
+
     /*tablet*/
-    @media (max-width: 1023px) and (min-width: 768px){
-        .main-frame{
-            display:flex;
-            flex-direction: column;
-            align-items: flex-start;
-            position:absolute;
-            width: 100wh;
-            height:100vh;
-            margin: 0px;
-            padding: 0px;
-        }
-        .container{
+
+    @media (max-width: 768px ) and (min-width: 361px){
+        .navbar ul li{
+            display: inline-block;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+       
+           }
+           .navbar ul .lli{
+               color: #ff8527;
+       
+           }
+           .navbar{
             display: flex;
-        }
-        .sub-frame{
+        justify-content: space-between;
+        flex-direction: row;
+        align-content: space-between;
+        position: relative;
+        top: 0px;
+        border: .1px solid #E1E2E3;
+        padding: 7px 10px;
+        overflow: auto;
+        overflow-y: hidden;
+           }
+           .sub-frame{
             display:flex;
             flex-direction: row;
             position:static;
-            width: 375px;
-            height: 313px;
+            justify-content: space-evenly;
+            padding: 8px;
+        }
+        .recipe-frame{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding:8px;
+            position: relative;
+        }
+        .user-info{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            position: static;
+            height: 40px;
+            left: 8px;
+            top: 249px;
+        }
+        .name-group{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            left:10px;
+        }
+        h2{
+            position: relative;
+            right: -20.8rem;
+           padding-top:  30px;
+        }
+    }
+
+    /*Desktop*/
+    @media (max-width: 1024px) and (min-width: 769px) {
+        .mainframe{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        h2{
+            position: relative;
+            right: -27.8rem;
+           padding-top:  30px;
+        }
+        .navbar ul li{
+            display: inline-block;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+           }
+           .navbar ul .lli{
+               color: #ff8527;
+           }
+           .navbar {
+            display: flex;
+            flex-direction: row;
+            align-content: space-between;
+            position: relative;
+            top: 0px;
+            border: .1px solid #E1E2E3;
+            padding: 7px 10px;
+            overflow: auto;
+            overflow-y: hidden;
+            justify-content: space-evenly;
+        }
+           .sub-frame{
+            display:flex;
+            flex-direction: row;
+            position:static;
             justify-content: space-around;
             padding: 8px;
         }
@@ -142,86 +261,14 @@
             position: relative;
             left:10px;
         }
-        #user-img{
-            position: static;
-            width: 32px;
-            height: 32px;
-          }
-        .recipe-title {
-            position: static;
-            width:163.5px;
-            height: 54px;
-            font-family: recoleta;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 27px;
-            letter-spacing: 0.023em;
-            color: black;
-            margin-top:-2px;
-        }
-        .user-name{
-         position: relative;
-            font-family: cera pro;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
-            top:10px;
-            color: black;
-        }
-        .reviews{
-           display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            position: relative;
-            bottom: 10px;
-        }
-        #recipe-img{
-            position: static;
-            width: 163.5px;
-            height: 171px;
-            left: 8px;
-            top: 8px;
-            position: relative;
-        }
-        .recipe-frame .hearticon{
-            position: absolute;
-            width: 32px;
-            height: 32px;
-            flex: none;
-            order: 0;
-            flex-grow: 0;
-            margin: 0px 10px;
-            right: 7px;
-            top: 140px;
-        }
     }
-/*-----------------------------------------*/
 
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
- h2{
-     position: relative;
-     right: 2.2rem;
-    padding-top:  30px; ;
-} 
 .h2-frame{
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    align-content: space-between;
-    position: relative;
-    top: 5px;
-    border: .1px solid #E1E2E3;
-    padding: 5px;
+    align-content: center;
+    flex-wrap: nowrap;
 }
 .bet{
     position: relative;
@@ -256,117 +303,10 @@ li{
     left: .5rem;
     top: .5rem;
 }
-.li{
+.navbar ul .li{
     color: #ff8527;
-}
+} 
 a{
     text-decoration: none;
     color: black;
 }
-/*------------------------------------------*/
-
-    /*Desktop*/
-    @media (min-width: 1024px){
-        .main-frame{
-            display:flex;
-            flex-direction: column;
-            align-items: flex-start;
-            position:absolute;
-            width: 100wh;
-            height:100vh;
-            margin: 0px;
-            padding: 0px;
-        }
-        .MainContainer{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: center;
-            align-items: flex-start;
-                }
-        .sub-frame{
-            display:flex;
-            flex-direction: row;
-            position:static;
-            width: 375px;
-            height: 313px;
-            justify-content: space-around;
-            padding: 8px;
-        }
-        .recipe-frame{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            padding:8px;
-            position: relative;
-        }
-        .user-info{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            position: static;
-            height: 40px;
-            left: 8px;
-            top: 249px;
-        }
-        .name-group{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            position: relative;
-            left:10px;
-        }
-        #user-img{
-            position: static;
-            width: 32px;
-            height: 32px;
-          }
-        .recipe-title {
-            position: static;
-            width:163.5px;
-            height: 54px;
-            font-family: recoleta;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 27px;
-            letter-spacing: 0.023em;
-            color: black;
-            margin-top:-2px;
-        }
-        .user-name{
-         position: relative;
-            font-family: cera pro;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
-            top:10px;
-            color: black;
-        }
-        .reviews{
-           display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            position: relative;
-            bottom: 10px;
-        }
-        #recipe-img{
-            position: static;
-            width: 163.5px;
-            height: 171px;
-            left: 8px;
-            top: 8px;
-            position: relative;
-        }
-        .recipe-frame .hearticon{
-            position: absolute;
-            width: 32px;
-            height: 32px;
-            flex: none;
-            order: 0;
-            flex-grow: 0;
-            margin: 0px 10px;
-            right: 7px;
-            top: 140px;
-        }
-    }
